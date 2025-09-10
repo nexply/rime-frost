@@ -1,0 +1,11 @@
+patch:
+  # 拼写设定
+  speller/algebra/+:
+      ### 模糊音
+      # 韵母
+      # - derive/ang$/an/
+      # - derive/an$/ang/
+      - derive/eng$/en/
+      - derive/en$/eng/
+      - derive/in$/ing/
+      - derive/ing$/in/

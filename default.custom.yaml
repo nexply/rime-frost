@@ -1,0 +1,17 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.1
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Aug 27 09:35:07 2024"
+  rime_version: 1.11.2
+patch:
+  schema_list:
+    - {schema: rime_frost}
+  # 方案选单相关
+  switcher/hotkeys:
+      - Control+Shift+m
+  # 快捷键
+  key_binder/bindings/+:
+      # 翻页 , .
+      - { when: paging, accept: comma, send: Page_Up }
+      - { when: has_menu, accept: period, send: Page_Down }
